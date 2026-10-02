@@ -1,0 +1,8 @@
+{
+  "name": "repository-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-build public GitHub repository archive",
+  "scripts": {"test": "node --test tests/*.test.cjs", "snapshot": "python3 scripts/collect-snapshot.py"},
+  "devDependencies": {"linkedom": "0.18.12"}
+}

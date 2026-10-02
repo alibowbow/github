@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="공개 GitHub Stars를 한국어로 이해하고, 저장하고, 다시 찾는 저장소 아카이브.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https://api.github.com; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Repository Atlas · GitHub 저장소 아카이브</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="atlas.css">
+  <script src="core.js" defer></script>
+  <script src="data/snapshot.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">본문으로 건너뛰기</a>
+  <div class="stage">
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="Repository Atlas 홈"><span class="brand-mark" aria-hidden="true">RA</span><span>REPOSITORY <b>ATLAS</b></span></a>
+      <div class="search-wrap"><label class="sr-only" for="search">한국어·영문 통합 검색</label><input id="search" type="search" placeholder="용도, 이름, 태그, 내 메모 검색" autocomplete="off"><kbd>/</kbd></div>
+      <button id="theme" class="icon-button" type="button" aria-label="다크 모드로 전환">◐</button>
+    </header>
+    <main id="content" tabindex="-1">
+      <section class="banner" aria-labelledby="title"><div><p class="eyebrow">TOOLS WORTH KEEPING</p><h1 id="title">다시 찾고 싶은 저장소.</h1><p>한국어로 이해하고, 나만의 맥락으로 저장하세요.</p></div><div class="banner-stats"><div><b id="star-count">—</b><span>공개 GitHub Stars</span></div><div><b id="saved-count">0</b><span>내 기기에 저장</span></div></div></section>
+      <div class="collection-row"><nav id="collections" aria-label="저장소 모음"></nav><div class="data-actions"><button id="add-repo" type="button">＋ 저장소 추가</button><button id="export" type="button">JSON 내보내기 ↗</button><button id="import" type="button">가져오기</button><button id="refresh" class="refresh" type="button">공개 Stars 갱신 ↻</button><input id="import-file" type="file" accept="application/json,.json" hidden></div></div>
+      <div class="status-row"><p id="data-status" role="status" aria-live="polite">스냅샷 불러오는 중…</p><button id="data-info" type="button">수집 기록</button></div>
+      <p id="storage-status" class="notice" role="alert" hidden></p>
+      <div class="toolbar" aria-label="검색 필터"><label>카테고리<select id="category"><option value="all">전체 카테고리</option></select></label><label>언어<select id="language"><option value="all">전체 언어</option></select></label><label>라이선스<select id="license"><option value="all">전체 라이선스</option></select></label><label>정렬<select id="sort"><option value="activity">최근 코드활동</option><option value="stars">별 수 많은 순</option><option value="name">이름순 A–Z</option></select></label><button id="reset" type="button">필터 초기화</button></div>
+      <div class="results-heading"><h2 id="collection-title">전체 아카이브</h2><span id="result-count" role="status" aria-live="polite">—</span></div>
+      <section id="repo-grid" class="repo-grid" aria-label="저장소 목록" aria-busy="true"><p>스냅샷을 불러오는 중입니다.</p></section>
+      <nav id="pagination" class="pagination" aria-label="목록 페이지 이동"></nav>
+      <footer><span>REPOSITORY ATLAS <span class="footer-dot">·</span> JH</span><span>공개 메타데이터 · 저장과 메모는 이 기기에만</span></footer>
+    </main>
+  </div>
+  <aside id="compare-dock" class="compare-dock" aria-label="선택 비교" hidden><span id="compare-count"></span><button id="compare-open" class="primary" type="button">선택 비교</button><button id="compare-clear" type="button">비우기</button></aside>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div class="modal-head"><div><p id="dialog-eyebrow" class="eyebrow"></p><h2 id="dialog-title"></h2></div><button id="dialog-close" class="primary" type="button" autofocus>닫기 ×</button></div><div id="dialog-body" class="modal-body"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="notice">이 앱의 검색·저장 기능에는 JavaScript가 필요합니다. 공개 스냅샷은 data/snapshot.json에서 확인할 수 있습니다.</p></noscript>
+</body>
+</html>
