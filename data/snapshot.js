@@ -524,6 +524,41 @@ window.REPO_ATLAS_SNAPSHOT = {
       "readme_url": "https://github.com/marimo-team/marimo/blob/main/README.md",
       "archived": false,
       "metadata_verified": true
+    },
+    {
+      "id": "awlevin/typesafe-computer-use",
+      "owner": "awlevin",
+      "name": "typesafe-computer-use",
+      "collection": "recommendation",
+      "summary_ko": "화면 OCR·접근성 정보와 TypeSafe 분류기를 결합해 클릭·입력을 수행하는 컴퓨터 사용 자동화 프레임워크.",
+      "use_case": "macOS 데스크톱 작업 자동화 구조를 살펴볼 때. Windows 지원은 실험 단계이며 TypeSafe API가 필요함.",
+      "category": "AI · 에이전트",
+      "language": "Python",
+      "license_note": "공개·보관 처리되지 않은 저장소. 원문 LICENSE의 MIT 및 Copyright (c) 2026 Aaron Levin을 확인. https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/LICENSE",
+      "review_note": "README에서 베타 상태, OCR·접근성 정보로 화면 상태를 읽고 분류기로 다음 동작을 선택하는 구조를 확인. macOS 14+·Python 3.12+가 필요하며 Windows 10/11 지원은 실험적. TypeSafe API 키가 필요하고 자유 텍스트 작성용 모델은 선택 사항. 비용·성능 주장과 OSWorld 결과는 검증하지 않았으며 원본 코드는 설치·실행하지 않음.",
+      "description_original": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
+      "license_spdx": "MIT",
+      "license_display": "MIT",
+      "readme_sha": "875d091f6abda81ed03252184995fbeb67a9d8b7",
+      "recommendation_reason": "사용자 요청으로 추가한 computer-use 자동화 참고 자료. 내 GitHub Stars와 별도인 아카이브 항목.",
+      "tags": [
+        "computer-use",
+        "OCR",
+        "TypeSafe",
+        "macOS",
+        "자동화"
+      ],
+      "stars": 1136,
+      "pushed_at": "2026-09-29T23:33:46Z",
+      "updated_at": "2026-10-02T14:08:33Z",
+      "starred_at": null,
+      "reviewed_at": "2026-10-02T14:19:56.575Z",
+      "checked_at": "2026-10-02T14:19:56.575Z",
+      "repo_url": "https://github.com/awlevin/typesafe-computer-use",
+      "docs_url": "https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/README.md",
+      "readme_url": "https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/README.md",
+      "archived": false,
+      "metadata_verified": true
     }
   ]
 };
