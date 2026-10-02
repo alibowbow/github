@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="공개 GitHub Stars를 한국어로 이해하고, 저장하고, 다시 찾는 저장소 아카이브.">
+  <meta name="description" content="카테고리별로 탐색하고 한국어 용도와 원문을 확인하는 GitHub 저장소 아카이브.">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https://api.github.com; object-src 'none'; base-uri 'none'; form-action 'none'">
   <title>Repository Atlas · GitHub 저장소 아카이브</title>
@@ -19,14 +19,16 @@
     <header class="site-header">
       <a class="brand" href="./index.html" aria-label="Repository Atlas 홈"><span class="brand-mark" aria-hidden="true">RA</span><span>REPOSITORY <b>ATLAS</b></span></a>
       <div class="search-wrap"><label class="sr-only" for="search">한국어·영문 통합 검색</label><input id="search" type="search" placeholder="용도, 이름, 태그, 내 메모 검색" autocomplete="off"><kbd>/</kbd></div>
+      <details id="manage" class="manage"><summary>관리</summary><div class="data-actions"><button id="add-repo" type="button">저장소 추가</button><button id="export" type="button">JSON 내보내기</button><button id="import" type="button">가져오기</button><label class="saved-filter"><input id="saved-only" type="checkbox">저장한 항목만 <small id="saved-count">0</small></label><button id="refresh" class="refresh" type="button">공개 목록 갱신 ↻</button><button id="data-info" type="button">수집 기록</button><p id="data-status" role="status" aria-live="polite">스냅샷 불러오는 중…</p></div></details>
       <button id="theme" class="icon-button" type="button" aria-label="다크 모드로 전환">◐</button>
     </header>
     <main id="content" tabindex="-1">
-      <section class="banner" aria-labelledby="title"><div><p class="eyebrow">TOOLS WORTH KEEPING</p><h1 id="title">다시 찾고 싶은 저장소.</h1><p>한국어로 이해하고, 나만의 맥락으로 저장하세요.</p></div><div class="banner-stats"><div><b id="star-count">—</b><span>공개 GitHub Stars</span></div><div><b id="saved-count">0</b><span>내 기기에 저장</span></div></div></section>
-      <div class="collection-row"><nav id="collections" aria-label="저장소 모음"></nav><div class="data-actions"><button id="add-repo" type="button">＋ 저장소 추가</button><button id="export" type="button">JSON 내보내기 ↗</button><button id="import" type="button">가져오기</button><button id="refresh" class="refresh" type="button">공개 Stars 갱신 ↻</button><input id="import-file" type="file" accept="application/json,.json" hidden></div></div>
-      <div class="status-row"><p id="data-status" role="status" aria-live="polite">스냅샷 불러오는 중…</p><button id="data-info" type="button">수집 기록</button></div>
+      <h1 id="title" class="sr-only">저장소 아카이브</h1>
+      <nav id="categories" class="category-nav" aria-label="저장소 카테고리"></nav>
+      <input id="import-file" type="file" accept="application/json,.json" hidden>
+      <p id="data-alert" class="notice" role="status" aria-live="polite" hidden></p>
       <p id="storage-status" class="notice" role="alert" hidden></p>
-      <div class="toolbar" aria-label="검색 필터"><label>카테고리<select id="category"><option value="all">전체 카테고리</option></select></label><label>언어<select id="language"><option value="all">전체 언어</option></select></label><label>라이선스<select id="license"><option value="all">전체 라이선스</option></select></label><label>정렬<select id="sort"><option value="activity">최근 코드활동</option><option value="stars">별 수 많은 순</option><option value="name">이름순 A–Z</option></select></label><button id="reset" type="button">필터 초기화</button></div>
+      <div class="toolbar" aria-label="검색 필터"><label><span class="sr-only">언어</span><select id="language"><option value="all">전체 언어</option></select></label><label><span class="sr-only">라이선스</span><select id="license"><option value="all">전체 라이선스</option></select></label><label><span class="sr-only">정렬</span><select id="sort"><option value="activity">최근 코드활동</option><option value="stars">별 수 많은 순</option><option value="name">이름순 A–Z</option></select></label><button id="reset" type="button">초기화</button></div>
       <div class="results-heading"><h2 id="collection-title">전체 아카이브</h2><span id="result-count" role="status" aria-live="polite">—</span></div>
       <section id="repo-grid" class="repo-grid" aria-label="저장소 목록" aria-busy="true"><p>스냅샷을 불러오는 중입니다.</p></section>
       <nav id="pagination" class="pagination" aria-label="목록 페이지 이동"></nav>
