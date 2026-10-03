@@ -559,6 +559,44 @@
       "readme_url": "https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/README.md",
       "archived": false,
       "metadata_verified": true
+    },
+    {
+      "id": "lemomo-ai/lemo-opuscar",
+      "name": "lemo-opuscar",
+      "owner": "lemomo-ai",
+      "collection": "recommendation",
+      "description_original": "43 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+      "summary_ko": "코딩 에이전트용 단편 영상 제작 도구와 43종 스타일 가이드. Canvas·WebGL·Three.js 장면을 프레임별로 렌더링하고 FFmpeg로 음성·음악·자막을 합성한다.",
+      "use_case": "스타일 지침을 선택해 설명 영상·모션그래픽·단편 애니메이션의 연출과 코드 기반 제작 흐름을 구성할 때.",
+      "category": "이미지 · 영상",
+      "tags": [
+        "Canvas",
+        "WebGL",
+        "Three.js",
+        "FFmpeg",
+        "Agent Skill",
+        "영상 제작",
+        "스타일 가이드",
+        "단편 애니메이션"
+      ],
+      "language": "JavaScript",
+      "license_spdx": "NOASSERTION",
+      "license_display": "MIT 본문 (원문) · 데모 자산 별도 조건",
+      "license_note": "GitHub API의 license.spdx_id는 NOASSERTION(자동 식별 미확정)으로 보존하며 카드·필터는 별도 확인 필요로 표시. 원문 LICENSE에는 MIT 본문과 Copyright (c) 2026 LemoLab이 있음. 데모의 샘플 라이브러리·폰트·음악·음성은 각자의 라이선스를 유지하므로 각 데모의 CREDITS를 확인해야 하며, 모든 자산을 MIT로 간주할 수 없음. 출처: https://github.com/lemomo-ai/lemo-opuscar/blob/c4bc370eb15d36c88e074fdba1b0248b62a8e419/LICENSE",
+      "stars": 870,
+      "pushed_at": "2026-10-01T23:47:08Z",
+      "updated_at": "2026-10-03T13:17:58Z",
+      "starred_at": null,
+      "checked_at": "2026-10-03T13:19:42.987Z",
+      "repo_url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "docs_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/c4bc370eb15d36c88e074fdba1b0248b62a8e419/TECHNIQUE.md",
+      "readme_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/c4bc370eb15d36c88e074fdba1b0248b62a8e419/README.md",
+      "readme_sha": "b14c23b3d509a36a42fdc9a40796971ae1d2b212",
+      "review_note": "README와 스타일 색인에서 43종 스타일 항목을 확인. TECHNIQUE.md에서 시간 함수 기반 Canvas·WebGL·Three.js 장면의 headless Chrome 프레임 렌더링, TTS·음악·자막과 FFmpeg 합성 흐름을 확인. Node 20+·FFmpeg·Python 3.11+ 또는 uv가 필요하며 3D·셰이더 중심 스타일은 GPU를 요구함. 원본 코드·플러그인은 설치·실행하지 않았고 데모 자산은 복사하지 않음. Claude Opus 5.5 제작, 30~60분 제작 시간, 품질·성능 설명은 제작자 주장으로만 기록하며 직접 검증하지 않음. 스타일 색인 출처: https://github.com/lemomo-ai/lemo-opuscar/blob/c4bc370eb15d36c88e074fdba1b0248b62a8e419/styles/README.md",
+      "reviewed_at": "2026-10-03T13:22:13.088Z",
+      "recommendation_reason": "사용자 요청으로 추가한 단편 영상 제작 도구·스타일 가이드. 내 GitHub Stars와 별도인 아카이브 항목이며 star 날짜를 생성하지 않음.",
+      "archived": false,
+      "metadata_verified": true
     }
   ]
 }
