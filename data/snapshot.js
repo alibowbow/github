@@ -559,6 +559,41 @@ window.REPO_ATLAS_SNAPSHOT = {
       "readme_url": "https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/README.md",
       "archived": false,
       "metadata_verified": true
+    },
+    {
+      "id": "mexicat/pdoom-video",
+      "name": "pdoom-video",
+      "owner": "mexicat",
+      "collection": "recommendation",
+      "description_original": "Code-rendered music video for \"I'm Upping My P(doom)\"",
+      "summary_ko": "TypeScript·Three.js로 가사·비트에 맞춘 타이포그래피와 장면을 렌더링하는 코드 기반 뮤직비디오 프로젝트.",
+      "use_case": "음악 동기화 모션그래픽, 단어별 가사 연출, 브라우저 미리보기와 고해상도 영상 내보내기 구조를 참고할 때.",
+      "category": "이미지 · 영상",
+      "tags": [
+        "Three.js",
+        "TypeScript",
+        "뮤직비디오",
+        "타이포그래피",
+        "음악 동기화"
+      ],
+      "language": "TypeScript",
+      "license_spdx": "MIT",
+      "license_display": "MIT",
+      "license_note": "코드는 MIT, Copyright (c) 2026 Giacomo Magnanini. 원문 LICENSE: https://github.com/mexicat/pdoom-video/blob/a048746d25fa0333ca884fb79fe4482b9c89250d/LICENSE . 음악·가사(audio/, lyrics/, data/lyrics.json)는 MIT 적용 대상이 아니며 원저작자에게 권리가 있음. 폰트는 각자의 라이선스 유지: SIL OFL 또는 public domain(README Credits 참고).",
+      "stars": 2256,
+      "pushed_at": "2026-10-02T21:40:55Z",
+      "updated_at": "2026-10-03T03:15:14Z",
+      "starred_at": null,
+      "checked_at": "2026-10-03T03:29:11Z",
+      "repo_url": "https://github.com/mexicat/pdoom-video",
+      "docs_url": "https://github.com/mexicat/pdoom-video/blob/a048746d25fa0333ca884fb79fe4482b9c89250d/docs/ENGINE.md",
+      "readme_url": "https://github.com/mexicat/pdoom-video/blob/a048746d25fa0333ca884fb79fe4482b9c89250d/README.md",
+      "readme_sha": "945a7e85559ee98ea7b4713b6b3fb6f709325c09",
+      "review_note": "README·docs/ENGINE.md·app/package.json에서 TypeScript·Three.js, Bun·Vite 미리보기, 가사·비트 타이밍과 장면 API, headless Chrome·ffmpeg 내보내기 구조를 확인. 미리보기·내보내기에는 Bun·Google Chrome·ffmpeg가 필요하며 오프라인 영상 렌더링은 GPU·메모리 부하가 큼. 1080p60·4K60 출력과 성능 수치는 원문 설명이며 직접 실행·성능 검증하지 않음.",
+      "reviewed_at": "2026-10-03T03:29:11Z",
+      "recommendation_reason": "사용자 요청으로 추가한 코드 기반 뮤직비디오 참고 자료. 내 GitHub Stars와 별도인 아카이브 항목.",
+      "archived": false,
+      "metadata_verified": true
     }
   ]
 };
