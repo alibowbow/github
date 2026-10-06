@@ -559,6 +559,41 @@
       "readme_url": "https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/README.md",
       "archived": false,
       "metadata_verified": true
+    },
+    {
+      "id": "AIEGOBOT/agent-audio",
+      "owner": "AIEGOBOT",
+      "name": "agent-audio",
+      "collection": "recommendation",
+      "summary_ko": "Stable Audio 3 Medium을 로컬에서 실행해 게임·영상용 효과음과 음악을 WAV로 생성하는 MCP 서버·Agent Skill.",
+      "use_case": "코딩 에이전트의 게임·영상 제작에 필요한 짧은 소리를 로컬에서 생성하는 구성을 살펴볼 때.",
+      "category": "음악 · 창작",
+      "language": "Python",
+      "license_note": "소스 코드는 MIT(Copyright (c) 2026 Agent Audio contributors). 모델 가중치는 미포함이며 Stable Audio 3 Medium에는 Stability AI Community License, T5Gemma 구성요소에는 Gemma 약관이 별도로 적용됨. https://github.com/AIEGOBOT/agent-audio/blob/975d804594f515e81cdb8858587af5469cf78ebf/LICENSE",
+      "review_note": "README의 초기 프리뷰(v0.1), 텍스트→WAV 인터페이스와 Codex·Claude Code·Cursor 등록 기능을 확인. Windows CPU 및 Apple Silicon MLX의 짧은 WAV 생성 사례가 있으나 에이전트의 자동 호출·완성 프로젝트 통합·청취 품질은 검증되지 않음. Linux는 모델 없는 CI만 확인되며 GPU 가속을 일괄 보장하지 않음. ComfyUI나 유료 오디오 생성 API 없이 동작하는 구성이지만 모델 다운로드·별도 모델 약관·충분한 메모리와 저장 공간이 필요함. 원본 코드는 설치·실행하지 않음.",
+      "description_original": "Standalone local audio generation MCP and Agent Skill for AI coding agents. Install Stable Audio 3 Medium and generate sound effects and music without ComfyUI.",
+      "license_spdx": "MIT",
+      "license_display": "MIT",
+      "readme_sha": "4985c885163beb93dc20006704a1e08ebbe476a8",
+      "recommendation_reason": "사용자 요청으로 추가한 로컬 오디오 생성 참고 자료. 내 GitHub Stars와 별도인 아카이브 항목.",
+      "tags": [
+        "MCP",
+        "Agent Skill",
+        "로컬 오디오",
+        "Stable Audio",
+        "효과음"
+      ],
+      "stars": 27,
+      "pushed_at": "2026-10-05T13:17:55Z",
+      "updated_at": "2026-10-06T08:19:30Z",
+      "starred_at": null,
+      "reviewed_at": "2026-10-06T10:03:25Z",
+      "checked_at": "2026-10-06T10:02:50Z",
+      "repo_url": "https://github.com/AIEGOBOT/agent-audio",
+      "docs_url": "https://github.com/AIEGOBOT/agent-audio/blob/975d804594f515e81cdb8858587af5469cf78ebf/README.md",
+      "readme_url": "https://github.com/AIEGOBOT/agent-audio/blob/975d804594f515e81cdb8858587af5469cf78ebf/README.md",
+      "archived": false,
+      "metadata_verified": true
     }
   ]
 }

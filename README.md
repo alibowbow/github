@@ -33,7 +33,7 @@ python3 -m http.server 8765 --directory .
 
 ## 동봉 데이터와 원문 확인
 
-공개 Stars 수집: **2026-10-01 23:34:56 UTC**, page 1 = **13개**, page 2 = **0개**. `Accept: application/vnd.github.star+json` 응답에서 실제 `starred_at`을 확보했습니다. 원문 README 검토: **2026-10-01 23:49:52 UTC**. 별도 추천 **3개**: `BurntSushi/ripgrep`, `marimo-team/marimo`, `awlevin/typesafe-computer-use`. 추천은 Stars와 별도이며 star 날짜를 만들지 않습니다. `typesafe-computer-use`는 2026-10-02에 공개 README·MIT 라이선스를 확인해 `AI · 에이전트`로 추가했습니다. 기존 15개 항목과 Stars 수집 기록은 유지했습니다.
+공개 Stars 수집: **2026-10-01 23:34:56 UTC**, page 1 = **13개**, page 2 = **0개**. `Accept: application/vnd.github.star+json` 응답에서 실제 `starred_at`을 확보했습니다. 원문 README 검토: **2026-10-01 23:49:52 UTC**. 별도 추천 **4개**: `BurntSushi/ripgrep`, `marimo-team/marimo`, `awlevin/typesafe-computer-use`, `AIEGOBOT/agent-audio`. 추천은 Stars와 별도이며 star 날짜를 만들지 않습니다. `typesafe-computer-use`는 2026-10-02에 공개 README·MIT 라이선스를 확인해 `AI · 에이전트`로 추가했습니다. 기존 15개 항목과 Stars 수집 기록은 유지했습니다. `agent-audio`는 2026-10-06에 공식 README·LICENSE·서드파티 고지를 확인해 `음악 · 창작`으로 추가했습니다. 소스 MIT와 별도 모델 약관, 초기 프리뷰 및 실제 프로젝트 통합·청취 품질 미검증을 구분했으며 기존 16개 항목과 Stars 수집 기록은 유지했습니다. [확인 기록](reviews/agent-audio-20261006.md)
 
 API:
 
@@ -103,3 +103,4 @@ npm test
 ## 작업 범위
 
 작업 브랜치: `feat/repository-atlas-20261001`. main 생성·변경·병합, 운영 배포, GitHub 공개 범위/설정 변경을 수행하지 않습니다. 자동 배포 워크플로도 추가하지 않습니다.
+
