@@ -559,6 +559,40 @@ window.REPO_ATLAS_SNAPSHOT = {
       "readme_url": "https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/README.md",
       "archived": false,
       "metadata_verified": true
+    },
+    {
+      "id": "alchaincyf/huashu-art-motion",
+      "owner": "alchaincyf",
+      "name": "huashu-art-motion",
+      "collection": "recommendation",
+      "summary_ko": "35종 미술 스타일과 9종 설명 영상 문법을 코드 애니메이션으로 만드는 에이전트 스킬.",
+      "use_case": "설명 영상에 미술풍 장면·화이트보드·동적 타이포·재무 차트 클립을 넣거나 화면 비율·길이를 JSON으로 제어할 때.",
+      "category": "이미지 · 영상",
+      "language": "JavaScript",
+      "license_note": "코드·문서는 MIT. 폰트는 SIL OFL 1.1, strokes.js의 필순 파생 데이터는 Arphic Public License. Huashu 캐릭터·프레임과 같은 캐릭터가 포함된 총람 이미지·데모 영상은 시연 전용이며 MIT의 다른 용도 허용 범위에서 제외. https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/LICENSE ; https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/scripts/engine/lib/fonts/LICENSES.md ; https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/README.md#许可证",
+      "review_note": "README에서 35종 Canvas 장면, 9종 설명 문법 중 8종의 데모·JSON 매개변수 클립을 확인. 9번째 진행자형 문법은 개인 캐릭터 소재가 필요한 참고 구현이며, 전체 내레이션 예제는 즉시 렌더 가능한 완제품이 아닌 코드 스냅샷. uv·FFmpeg·Playwright Chromium이 필요하고 스킬 문서는 중국어. 품질·성능은 제작자 설명이며 원본 코드를 설치·실행하거나 데모 자산을 복사하지 않음.",
+      "description_original": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+      "license_spdx": "MIT",
+      "license_display": "MIT",
+      "readme_sha": "1d8e8feaee56af57147ea9d913867cd417688075",
+      "recommendation_reason": "사용자 요청으로 추가한 코드 기반 아트·설명 애니메이션 참고 자료. 내 GitHub Stars와 별도인 아카이브 항목.",
+      "tags": [
+        "코딩 에이전트",
+        "Canvas",
+        "아트 애니메이션",
+        "FFmpeg"
+      ],
+      "stars": 2684,
+      "pushed_at": "2026-10-08T13:11:08Z",
+      "updated_at": "2026-10-09T08:43:16Z",
+      "starred_at": null,
+      "reviewed_at": "2026-10-09T08:47:38Z",
+      "checked_at": "2026-10-09T08:46:46Z",
+      "repo_url": "https://github.com/alchaincyf/huashu-art-motion",
+      "docs_url": "https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/README.md",
+      "readme_url": "https://github.com/alchaincyf/huashu-art-motion/blob/57d67608ab458f57d9b153b1a2831b921e22498b/README.md",
+      "archived": false,
+      "metadata_verified": true
     }
   ]
 };
