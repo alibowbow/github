@@ -559,6 +559,42 @@ window.REPO_ATLAS_SNAPSHOT = {
       "readme_url": "https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/README.md",
       "archived": false,
       "metadata_verified": true
+    },
+    {
+      "id": "academa-labs/manimgx",
+      "owner": "academa-labs",
+      "name": "manimgx",
+      "collection": "recommendation",
+      "category": "이미지 · 영상",
+      "tags": [
+        "Manim",
+        "Python",
+        "Rust",
+        "WebGPU",
+        "수학 시각화",
+        "3D 애니메이션"
+      ],
+      "summary_ko": "Manim CE의 Python API를 바탕으로 수학·2D·3D 애니메이션을 만들고 Rust·wgpu로 렌더링하는 엔진.",
+      "use_case": "수식·그래프·입체 도형을 설명하는 교육용 영상을 코드로 만들거나 웹페이지에 인터랙티브 장면을 넣을 때.",
+      "review_note": "README에서 Python 3.13+, MP4 출력, Pyodide·WebGPU 브라우저 실행, Typst·LaTeX 수식, 스토리보드·레이아웃 검사와 음성 동기화 기능을 확인. Manim CE API를 대상으로 하며 완전한 호환성을 보장하지 않음. 제작자 속도 비교는 재현하지 않았고 원본 코드는 설치·실행하지 않음.",
+      "license_note": "프로젝트 자체 코드는 MIT. x264를 포함한 네이티브 wheel 전체는 GPL-3.0-or-later이며 Pyodide wheel은 이 x264 설명에서 제외됨. FFmpeg는 LGPL-2.1-or-later, 번들 구성요소·폰트는 각자 조건 적용. https://github.com/academa-labs/manimgx/blob/7fb3303329f7459249e204533b2a04ca50380007/LICENSE ; https://github.com/academa-labs/manimgx/blob/7fb3303329f7459249e204533b2a04ca50380007/LICENSE-THIRD-PARTY",
+      "docs_url": "https://manimgx.academa.ai",
+      "reviewed_at": "2026-10-12T16:13:05Z",
+      "readme_sha": "bce9610168d96a30476674b24c8239eae8fd2604",
+      "readme_url": "https://github.com/academa-labs/manimgx/blob/7fb3303329f7459249e204533b2a04ca50380007/README.md",
+      "recommendation_reason": "사용자 요청으로 추가한 코드 기반 수학·3D 영상 제작 참고 자료. 내 GitHub Stars와 별도인 아카이브 항목.",
+      "license_display": "MIT (코드) · GPL-3.0-or-later (네이티브 wheel)",
+      "language": "Python",
+      "description_original": "The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core.",
+      "license_spdx": "MIT",
+      "stars": 844,
+      "pushed_at": "2026-10-12T06:40:24Z",
+      "updated_at": "2026-10-12T16:10:29Z",
+      "starred_at": null,
+      "checked_at": "2026-10-12T16:12:53Z",
+      "repo_url": "https://github.com/academa-labs/manimgx",
+      "archived": false,
+      "metadata_verified": true
     }
   ]
 };
