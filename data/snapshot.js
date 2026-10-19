@@ -559,6 +559,44 @@ window.REPO_ATLAS_SNAPSHOT = {
       "readme_url": "https://github.com/awlevin/typesafe-computer-use/blob/44ca11f0935b021b73020825da054b5c92cc1288/README.md",
       "archived": false,
       "metadata_verified": true
+    },
+    {
+      "id": "nexu-io/open-design",
+      "owner": "nexu-io",
+      "name": "open-design",
+      "collection": "recommendation",
+      "summary_ko": "디자인 시스템과 코딩 에이전트를 연결해 웹 프로토타입·슬라이드·이미지·영상을 만드는 로컬 우선 AI 디자인 워크스페이스.",
+      "use_case": "브랜드의 색상·서체·컴포넌트를 유지하며 화면과 발표 자료를 만들고, 생성된 HTML/CSS를 개발 작업으로 이어갈 때.",
+      "category": "AI · 에이전트",
+      "language": "TypeScript",
+      "license_note": "원문 LICENSE의 Apache License 2.0 및 Copyright 2026 Open Design contributors를 확인. 별도 LICENSE가 있는 번들 스킬·템플릿은 각 라이선스 유지. https://github.com/nexu-io/open-design/blob/4f69a426689bbd471c8f0774c13378e651ae7de8/LICENSE",
+      "review_note": "공식 한국어 사이트가 연결한 저장소의 README에서 Claude Code·Codex·Cursor, MCP·BYOK, HTML·PDF·PPTX와 HyperFrames MP4 출력을 확인. macOS·Windows 앱을 제공하며 Linux는 소스 실행 안내. 에이전트 구독·모델 API 비용은 별도. 로컬 우선이 외부 전송 없음을 뜻하지 않으며 PRIVACY.md는 기본 활성 선택 분석·품질 추적과 구성된 빌드의 항상 활성 안전·신뢰성 진단을 명시. 일부 기능은 로드맵에서 부분 구현·미구현으로 구분. 원본 코드는 설치·실행하지 않음.",
+      "description_original": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+      "license_spdx": "Apache-2.0",
+      "license_display": "Apache-2.0",
+      "readme_sha": "bf8b42df35f25e6aa865928233d9bfe152b9ea04",
+      "recommendation_reason": "사용자 요청으로 추가한 AI 디자인·프로토타입 제작 참고 자료. 내 GitHub Stars와 별도인 아카이브 항목.",
+      "tags": [
+        "OpenDesign",
+        "디자인 시스템",
+        "프로토타입",
+        "슬라이드",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "BYOK"
+      ],
+      "stars": 102510,
+      "pushed_at": "2026-10-19T18:18:09Z",
+      "updated_at": "2026-10-19T21:55:01Z",
+      "starred_at": null,
+      "reviewed_at": "2026-10-19T22:01:24Z",
+      "checked_at": "2026-10-19T21:59:48Z",
+      "repo_url": "https://github.com/nexu-io/open-design",
+      "docs_url": "https://open-design.ai/ko/",
+      "readme_url": "https://github.com/nexu-io/open-design/blob/4f69a426689bbd471c8f0774c13378e651ae7de8/README.md",
+      "archived": false,
+      "metadata_verified": true
     }
   ]
 };
